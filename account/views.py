@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 @login_required
 def dashboard(request):
-    return render(request,'dashboard.html',{'section':'dashboard'})
+    return render(request,'registration/dashboard.html',{'section':'dashboard'})

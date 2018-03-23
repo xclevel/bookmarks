@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'registration/base.html' %}
+{% block content %}
+    {% if form.errors %}
+        please write again.
+    {% else %}
+        pleaase continue:
+    {% endif %}
+    <div class="login-form">
+        <form action="{% url 'login' %}" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="hidden" name="next"  value="{{ next }}" >
+            <input type="submit" value="login">
+        </form>
+    </div>
+
+{% endblock content %}
