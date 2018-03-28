@@ -20,9 +20,9 @@ def register(request):
             new_user.save()
             return render(request,
                           'registration/register_done.html',
-                          {'new_user': new_user})
-        else:
-            user_form = UserRegistrationForm()
-        return render(request,
-                      'registration/register.html',
-                      {'user_form': user_form})
+                          {'new_user':new_user})
+    else:
+        user_form = UserRegistrationForm()
+    return render(request,
+                  'registration/register.html',
+                  {'user_form': user_form})
