@@ -16,6 +16,7 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (evn)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MyBlog" />
+    <orderEntry type="module" module-name="cke" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
