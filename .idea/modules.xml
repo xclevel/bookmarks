@@ -5,6 +5,7 @@
       <module fileurl="file://F:/myblog/MyBlog/.idea/MyBlog.iml" filepath="F:/myblog/MyBlog/.idea/MyBlog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bookmarks.iml" filepath="$PROJECT_DIR$/.idea/bookmarks.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cke/.idea/cke.iml" filepath="$PROJECT_DIR$/../cke/.idea/cke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testcke/.idea/testcke.iml" filepath="$PROJECT_DIR$/../testcke/.idea/testcke.iml" />
     </modules>
   </component>
 </project>

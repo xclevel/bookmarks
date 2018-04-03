@@ -17,6 +17,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MyBlog" />
     <orderEntry type="module" module-name="cke" />
+    <orderEntry type="module" module-name="testcke" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
