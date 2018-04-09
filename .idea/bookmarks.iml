@@ -18,6 +18,7 @@
     <orderEntry type="module" module-name="cke" />
     <orderEntry type="module" module-name="testcke" />
     <orderEntry type="module" module-name="MyBlog" />
+    <orderEntry type="module" module-name="html" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
